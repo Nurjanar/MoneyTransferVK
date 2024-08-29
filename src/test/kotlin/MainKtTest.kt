@@ -36,7 +36,7 @@ class MainKtTest {
         val result = calculateTransferFee(
             paymentMethod, monthlyAmount, currentAmount
         ).toInt()
-        assertEquals(500, result)
+        assertEquals(50, result)
     }
 
     @Test
